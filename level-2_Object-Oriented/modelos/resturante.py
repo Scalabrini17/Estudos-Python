@@ -1,4 +1,6 @@
 class Restaurante:
+    restaurantes = []
+
     def __init__(self, nome, categoria):  # O __init__() é um método "Construtor" quando chamado dentro da class assim que é colocada ela já vai gerar valores para as variaveis
         self._nome = nome
         self._categoria = categoria
@@ -23,9 +25,3 @@ class Restaurante:
         self._ativo = not self._ativo
 
 
-# Agora para criar um novo objeto precisa dos paramentros logo na frente assim como os de baixo
-restaurante_praca = Restaurante("Praça", "Gourmet")
-restaurante_praca.alternar_estado()
-restaurante_pizza = Restaurante("Pizza express", "Italiana")
-
-Restaurante.listar_restaurantes()
