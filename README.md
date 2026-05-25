@@ -51,8 +51,8 @@ Learning-Python/
 ```
 ## Atividades feitas durante o curso
 ---
+[Exercícios Hand-on](Hands-onPythonpratice)
 
-...
 
 ## Como executar
 
