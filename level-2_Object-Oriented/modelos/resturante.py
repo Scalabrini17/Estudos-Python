@@ -1,3 +1,5 @@
+from modelos.avaliacao import Avaliacao
+
 class Restaurante:
     restaurantes = []
 
@@ -5,6 +7,7 @@ class Restaurante:
         self._nome = nome
         self._categoria = categoria
         self._ativo = False
+        self._avaliacao = []
         Restaurante.restaurantes.append(self)
 
     def __str__(self,):  # O __str__serve para que quando a variavel que contem esses valores for chamada, venhas as informações desejadas
@@ -14,7 +17,7 @@ class Restaurante:
     def listar_restaurantes(cls):  # Podemos usar os metodos (def) do prórpio python como foito a cima e os próprios metodos nossos como dessa linha Listar_restaurante().
         for restaurante in cls.restaurantes:
             print(
-                f"{restaurante._nome} | {restaurante._categoria} | {restaurante._ativo}"
+                f"{restaurante._nome} | {restaurante._categoria}  {restaurante._ativo}"
             )
 
     @property
@@ -24,4 +27,7 @@ class Restaurante:
     def alternar_estado(self):
         self._ativo = not self._ativo
 
+    def receber_avaliacao(self, cliente, nota):
+        avaliacao = Avaliacao(cliente, nota)
+        self._avaliacao.append(avaliacao)
 
