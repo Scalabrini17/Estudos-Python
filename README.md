@@ -51,7 +51,13 @@ Learning-Python/
 ```
 ## Atividades feitas durante o curso
 ---
-[Exercícios Hand-on](Hands-onPythonpratice)
+- Exercícios Hand-on
+[Level-1](Hands-on-Python-pratice/Level-1_conditionals)
+[Level-2](Hands-on-Python-Pratico/Level-2_loop)
+
+- Exercícios durante o curso
+[Exercícios Level 1 Introdutorio](level-i_introduction/Exercises)
+[Exercícios Level 2 POO](level-2_Object-Oriented)
 
 
 ## Como executar
