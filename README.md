@@ -13,17 +13,17 @@ O projeto principal até o momento é um sistema simples de restaurantes executa
 
 ## Conteúdos estudados
 
-Sintaxe básica do Python
-Variáveis
-Listas e dicionários
-Condicionais
-Laços de repetição
-Funções
-Tratamento de erros com try e except
-Organização de código
-Programação Orientada a Objetos
-Classes, métodos e atributos
-Separação de responsabilidades em arquivos e pastas
+- Sintaxe básica do Python
+- Variáveis
+- Listas e dicionários
+- Condicionais
+- Laços de repetição
+- Funções
+- Tratamento de erros com try e except
+- Organização de código
+- Programação Orientada a Objetos
+- Classes, métodos e atributos
+- Separação de responsabilidades em arquivos e pastas
 
 ## Tecnologias utilizadas
 
