@@ -1,4 +1,4 @@
-# Learning Python
+# Estudos Python
 ---
 
 Repositório criado para registrar minha evolução nos estudos de Python, com exercícios, anotações práticas e pequenos projetos desenvolvidos durante minha jornada de aprendizado.
