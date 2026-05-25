@@ -15,9 +15,10 @@ class Restaurante:
 
     @classmethod
     def listar_restaurantes(cls):  # Podemos usar os metodos (def) do prórpio python como foito a cima e os próprios metodos nossos como dessa linha Listar_restaurante().
+        print(f'{'Nome do Restaurante'.ljust(25)} | {'Categoria'.ljust(25)} | {'Avaliação'.ljust(25)} | {'Status'}')
         for restaurante in cls.restaurantes:
             print(
-                f"{restaurante._nome} | {restaurante._categoria}  {restaurante._ativo}"
+                f'{restaurante._nome.ljust(25)} | {restaurante._categoria.ljust(25)} | {str(restaurante.media_avaliacao).ljust(25)} | {restaurante._ativo}' # coloquei o media avaliação dentro do str() para colocar o ljust porque o tipo decimal não tem ljust nele, então decalrei como string antes de aparecer
             )
 
     @property
@@ -30,4 +31,13 @@ class Restaurante:
     def receber_avaliacao(self, cliente, nota):
         avaliacao = Avaliacao(cliente, nota)
         self._avaliacao.append(avaliacao)
+
+    @property
+    def media_avaliacao(self):
+        if not self._avaliacao:
+            return 0
+        soma_notas = sum(avaliacao._nota for avaliacao in self._avaliacao) # o sum() serve para somar 
+        quantidade_notas = len(self._avaliacao)   # len() serve para ver a quantidade 
+        media = round(soma_notas / quantidade_notas,1) # O round() serve para escolhar quantas casas deciamis deve ter, nesse cado 1 casa decimal
+        return media
 
