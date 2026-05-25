@@ -49,6 +49,10 @@ Learning-Python/
 │   ├── modelos/
 │   └── Exercises/
 ```
+## Atividades feitas durante o curso
+---
+
+...
 
 ## Como executar
 
@@ -72,3 +76,6 @@ No Windows, caso necessário, use:
 ```bash
 python level-1_introduction/app.py
 ```
+## Autor
+
+Desenvolvido por Scalabrini
