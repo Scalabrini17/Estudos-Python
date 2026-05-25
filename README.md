@@ -9,7 +9,7 @@ Este projeto utiliza dados fictícios apenas para fins de estudo.
 
 O repositório contém códigos desenvolvidos durante meus estudos de Python, incluindo fundamentos da linguagem, manipulação de estruturas de dados, funções, organização de código e introdução à Programação Orientada a Objetos.
 
-O projeto principal até o momento é um sistema simples de restaurantes executado pelo terminal, onde é possível cadastrar restaurantes, listar registros e alternar o status entre ativo e inativo.
+O projeto principal até o momento é um sistema simples de restaurantes executado pelo terminal, onde é possível cadastrar restaurantes, listar registros, alternar o status entre ativo e inativo e foi adicionado recentemente a função de avaliação onde o restaurante recebe a média de avaliações (feito no level 2).
 
 ## Conteúdos estudados
 
