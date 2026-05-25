@@ -53,21 +53,22 @@ Learning-Python/
 ## Como executar
 
 Clone o repositório:
-
+```bash
 git clone https://github.com/Scalabrini17/Learning-Python.git
-
+```
 Acesse a pasta do projeto:
-
+```bash
 cd Learning-Python
-
+```
 Execute um dos projetos:
-
+```bash
 python3 level-1_introduction/app.py
-
+```
 ou:
-
+```bash
 python3 level-2_Object-Oriented/app.py
-
+```
 No Windows, caso necessário, use:
-
+```bash
 python level-1_introduction/app.py
+```
