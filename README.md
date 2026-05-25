@@ -36,6 +36,10 @@ O projeto principal até o momento é um sistema simples de restaurantes executa
 
 ```bash
 Learning-Python/
+├── Hands-on Python practice
+|   ├── Level-1_conditionals
+|   └── Level-2_loop
+|
 ├── level-1_introduction/
 │   ├── app.py
 │   └── Exercises/
@@ -44,10 +48,6 @@ Learning-Python/
 │   ├── app.py
 │   ├── modelos/
 │   └── Exercises/
-│
-├── .vscode/
-├── .gitignore
-└── README.md
 ```
 
 ## Como executar
