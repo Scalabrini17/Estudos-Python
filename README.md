@@ -49,16 +49,17 @@ Learning-Python/
 │   ├── modelos/
 │   └── Exercises/
 ```
-## Atividades feitas durante o curso
+## Exercícios Feitos durante os estudos
 ---
-- Exercícios Hand-on
+## Exercícios Hand-on
 - [Level-1](Hands-on-Python-Practice./Level-1_conditionals)
 - Destaques Level-1 Prática
 - 
 - [Level-2](Hands-on-Python-Practice./Level-2_loop)
 - Destaques Level-2 Prática
 
-- Exercícios durante os estudos
+
+## Exercícios durante os estudos
 - [Exercícios Level 1 Introdutorio](level-1_introduction/Exercises)
 - Destaques Level-1 Exercícios durante os estudos
 - 
