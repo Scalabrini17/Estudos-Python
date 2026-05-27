@@ -53,11 +53,17 @@ Learning-Python/
 ---
 - Exercícios Hand-on
 - [Level-1](Hands-on-Python-Practice./Level-1_conditionals)
+- Destaques Level-1 Prática
+- 
 - [Level-2](Hands-on-Python-Practice./Level-2_loop)
+- Destaques Level-2 Prática
 
-- Exercícios durante o curso
+- Exercícios durante os estudos
 - [Exercícios Level 1 Introdutorio](level-1_introduction/Exercises)
+- Destaques Level-1 Exercícios durante os estudos
+- 
 - [Exercícios Level 2 POO](level-2_Object-Oriented/Exercises)
+- Destaques Level-2 Exercícios durante os estudos
 
 
 ## Como executar
