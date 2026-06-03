@@ -54,9 +54,9 @@ class Restaurante:
         for i,item in enumerate(self._cardapio, start = 1): #O enumerate serve para enumerar o print e ir enumerando em ordem quantos itens tiver
             if hasattr(item, 'descricao'):
                  mensagem_prato = f'{i} - Nome:{item._nome} | Preço: R${item._preco} | Descrição: {item.descricao}'
-            print(mensagem_prato)
-        else:
-            mensagem_bebida = f'{i} - Nome:{item._nome} | Preço: R${item._preco} | Tamanho: {item.tamanho}'
-        print(mensagem_bebida) 
+                 print(mensagem_prato)
+            else:
+                mensagem_bebida = f'{i} - Nome:{item._nome} | Preço: R${item._preco} | Tamanho: {item.tamanho}'
+            print(mensagem_bebida) 
                  
  
