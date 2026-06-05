@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod
+from abc import abstractmethod
 
 class ItemCardapio:
     def __init__(self, nome, preco):
