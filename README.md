@@ -87,8 +87,8 @@ python3 level-2_Object-Oriented/app.py
 ```
 No Windows, caso necessário, use:
 ```bash
-python level-1_introduction/app.py -->
-```
+python level-1_introduction/app.py 
+``` -->
 ## Autor
 
 Desenvolvido por Scalabrini
