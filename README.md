@@ -67,7 +67,7 @@ Learning-Python/
 - Destaques Level-2 Exercícios durante os estudos
 
 
-## Como executar
+<!-- ## Como executar
 
 Clone o repositório:
 ```bash
@@ -87,7 +87,7 @@ python3 level-2_Object-Oriented/app.py
 ```
 No Windows, caso necessário, use:
 ```bash
-python level-1_introduction/app.py
+python level-1_introduction/app.py -->
 ```
 ## Autor
 
