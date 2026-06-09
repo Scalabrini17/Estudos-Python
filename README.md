@@ -2,6 +2,8 @@
 ---
 
 Repositório criado para registrar minha evolução nos estudos de Python, com exercícios, anotações práticas e pequenos projetos desenvolvidos durante minha jornada de aprendizado.
+Aqui tem alguns dos projetos que fiz durantes das aulas dos cursos que vi e também algus exercícios para treinamento da materia que estava assistindo, e claro tem o projeto principal que foi construido junto dos professores que estavam ministrando as aulas.
+Obs: Esse repositorio contem meus estudos iniciais pela Alura, não são estudos totalmente aprofuncados.
 
 Este projeto utiliza dados fictícios apenas para fins de estudo.
 
